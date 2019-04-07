@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'howardjones/fpm-build3:latest'
+      image 'howardjones/fpm-rpm-builder:latest'
       args '--uid 0:0'
     }
 
